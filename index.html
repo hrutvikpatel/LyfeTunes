@@ -1,207 +1,574 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<title>LyfeTunes</title>
-	<!-- Bootstrap core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<!-- Custom styles for this template -->
-	<link href="css/owl.carousel.css" rel="stylesheet">
-	<link href="css/owl.theme.default.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-	<script src="js/ie-emulation-modes-warning.js"></script>
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>LyfeTunes</title>
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous">
+		<link rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<!-- Custom styles for this template -->
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.default.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+		<script src="js/ie-emulation-modes-warning.js"></script>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="./js/script.js"></script>
-</head>
+		<script
+			src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="./js/script.js"></script>
+	</head>
 
-<body id="page-top">
-	<!-- Navigation -->
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand page-scroll" href="#page-top">
-					<img
-						class="nav-logo"
-						src="./images/logo.png"
-						alt="LyfeTunes Logo"
-					>
-				</a>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="hidden">
-						<a href="#page-top"></a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#intro">Intro</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#about">About</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#policy">Privacy and Policy</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#contact">Contact</a>
-					</li>
-				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container-fluid -->
-	</nav>
-
-	<!-- Intro -->
-	<header id="intro">
-		<div class="container">
-			<div class="slider-container">
-				<div class="intro-text">
-					<img class="tech_image" src='./images/splash.png'>
-					<div class="intro-heading">Discover new tracks by listening to the best part first.</div>
+	<body id="page-top">
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand page-scroll" href="#page-top">
+						<img
+							class="nav-logo"
+							src="./images/logo.png"
+							alt="LyfeTunes Logo">
+					</a>
 				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#intro">Intro</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#about">About</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#policy">Privacy and Policy</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#terms">Terms &amp; Conditions</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
 			</div>
-		</div>
-	</header>
+			<!-- /.container-fluid -->
+		</nav>
 
-	<!-- Job Description -->
-	<section id="about" class="light-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<div class="section-title">
-						<p>
-							LyfeTunes is a helper that allows users to find music they like fast by listening to 30s previews. The app connects with Spotify and using your profile, finds the best track recommendations for you.
-						</p>
+		<!-- Intro -->
+		<header id="intro">
+			<div class="container">
+				<div class="slider-container">
+					<div class="intro-text">
+						<img class="tech_image" src='./images/splash.png'>
+						<div class="intro-heading">Discover new tracks by listening to the best
+							part first.</div>
 					</div>
 				</div>
 			</div>
+		</header>
 
-			<div class="row">
-				<!-- about module -->
-				<div class="col-md-4 text-center">
-					<img class="preivew_image" src='./images/Login.png'>
+		<!-- Job Description -->
+		<section id="about" class="light-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>LyfeTunes</h2>
+							<p>
+								LyfeTunes is a helper that allows users to find music they like fast by
+								listening to 30s previews. The app connects with Spotify and using your
+								profile, finds the best track recommendations for you.
+							</p>
+						</div>
+					</div>
 				</div>
-				<!-- end about module -->
-				<!-- about module -->
-				<div class="col-md-4 text-center">
-					<img class="preivew_image" src='./images/Home.png'>
+
+				<div class="row">
+					<!-- about module -->
+					<div class="col-md-4 text-center">
+						<img class="preivew_image" src='./images/Login.png'>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-4 text-center">
+						<img class="preivew_image" src='./images/Home.png'>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-4 text-center">
+						<img class="preivew_image" src='./images/SelectTracks.png'>
+					</div>
+					<!-- end about module -->
 				</div>
-				<!-- end about module -->
-				<!-- about module -->
-				<div class="col-md-4 text-center">
-					<img class="preivew_image" src='./images/SelectTracks.png'>
-				</div>
-				<!-- end about module -->
 			</div>
-		</div>
-	</section>
+		</section>
 
+		<section id="policy">
+			<div class="container">
 
-	<!-- Acknowledgments -->
-	<section id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<div class="section-title">
-						<h2>Contact</h2>
-						<p>
-							During my work term several individuals acted as mentors, and offered continuous help and
-							encouragement.
-							I would like to especially thank the following people.
-						</p>
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>Privacy Policy</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+							Hrutvik Patel built the LyfeTunes app as
+							an Ad Supported app. This SERVICE is provided by
+							Hrutvik Patel at no cost and is intended for use as
+							is.
+						</p> <p>
+							This page is used to inform visitors regarding my
+							policies with the collection, use, and disclosure of Personal
+							Information if anyone decided to use my Service.
+						</p> <p>
+							If you choose to use my Service, then you agree to
+							the collection and use of information in relation to this
+							policy. The Personal Information that I collect is
+							used for providing and improving the Service. I will not use or share
+							your information with
+							anyone except as described in this Privacy Policy.
+						</p> <p>
+							The terms used in this Privacy Policy have the same meanings
+							as in our Terms and Conditions, which is accessible at
+							LyfeTunes unless otherwise defined in this Privacy Policy.
+						</p> <p><strong>Information Collection and Use</strong></p> <p>
+							For a better experience, while using our Service, I
+							may require you to provide us with certain personally
+							identifiable information. The information that
+							I request will be retained on your device and is not collected by me in
+							any way.
+						</p> <div><p>
+								The app does use third party services that may collect
+								information used to identify you.
+							</p> <p>
+								Link to privacy policy of third party service providers used
+								by the app
+							</p> <ul><!----><li><a
+										href="https://support.google.com/admob/answer/6128543?hl=en"
+										target="_blank" rel="noopener noreferrer">AdMob</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul></div>
+						<p><strong>Log Data</strong></p> <p>
+							I want to inform you that whenever you
+							use my Service, in a case of an error in the app
+							I collect data and information (through third party
+							products) on your phone called Log Data. This Log Data may
+							include information such as your device Internet Protocol
+							(“IP”) address, device name, operating system version, the
+							configuration of the app when utilizing my Service,
+							the time and date of your use of the Service, and other
+							statistics.
+						</p> <p><strong>Cookies</strong></p> <p>
+							Cookies are files with a small amount of data that are
+							commonly used as anonymous unique identifiers. These are sent
+							to your browser from the websites that you visit and are
+							stored on your device's internal memory.
+						</p> <p>
+							This Service does not use these “cookies” explicitly. However,
+							the app may use third party code and libraries that use
+							“cookies” to collect information and improve their services.
+							You have the option to either accept or refuse these cookies
+							and know when a cookie is being sent to your device. If you
+							choose to refuse our cookies, you may not be able to use some
+							portions of this Service.
+						</p> <p><strong>Service Providers</strong></p> <p>
+							I may employ third-party companies and
+							individuals due to the following reasons:
+						</p> <ul><li>To facilitate our Service;</li> <li>To provide the Service on
+								our behalf;</li> <li>To perform Service-related services; or</li> <li>To
+								assist us in analyzing how our Service is used.</li></ul> <p>
+							I want to inform users of this Service
+							that these third parties have access to your Personal
+							Information. The reason is to perform the tasks assigned to
+							them on our behalf. However, they are obligated not to
+							disclose or use the information for any other purpose.
+						</p> <p><strong>Security</strong></p> <p>
+							I value your trust in providing us your
+							Personal Information, thus we are striving to use commercially
+							acceptable means of protecting it. But remember that no method
+							of transmission over the internet, or method of electronic
+							storage is 100% secure and reliable, and I cannot
+							guarantee its absolute security.
+						</p> <p><strong>Links to Other Sites</strong></p> <p>
+							This Service may contain links to other sites. If you click on
+							a third-party link, you will be directed to that site. Note
+							that these external sites are not operated by me.
+							Therefore, I strongly advise you to review the
+							Privacy Policy of these websites. I have
+							no control over and assume no responsibility for the content,
+							privacy policies, or practices of any third-party sites or
+							services.
+						</p> <p><strong>Children’s Privacy</strong></p> <p>
+							These Services do not address anyone under the age of 13.
+							I do not knowingly collect personally
+							identifiable information from children under 13. In the case
+							I discover that a child under 13 has provided
+							me with personal information, I immediately
+							delete this from our servers. If you are a parent or guardian
+							and you are aware that your child has provided us with
+							personal information, please contact me so that
+							I will be able to do necessary actions.
+						</p> <p><strong>Changes to This Privacy Policy</strong></p> <p>
+							I may update our Privacy Policy from
+							time to time. Thus, you are advised to review this page
+							periodically for any changes. I will
+							notify you of any changes by posting the new Privacy Policy on
+							this page.
+						</p> <p>This policy is effective as of 2020-08-23</p> <p><strong>Contact
+								Us</strong></p> <p>
+							If you have any questions or suggestions about my
+							Privacy Policy, do not hesitate to contact me at
+							hrutvikpatel.lyfetunes@gmail.com.
+						</p> <p>
+							This privacy policy page was created at
+							<a href="https://privacypolicytemplate.net" target="_blank" rel="noopener
+								noreferrer">privacypolicytemplate.net</a>
+							and modified/generated by
+							<a href="https://app-privacy-policy-generator.firebaseapp.com/"
+								target="_blank" rel="noopener noreferrer">App Privacy Policy Generator</a></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<strong>Terms &amp; Conditions</strong> <p>
+							By downloading or using the app, these terms will
+							automatically apply to you – you should make sure therefore
+							that you read them carefully before using the app. You’re not
+							allowed to copy, or modify the app, any part of the app, or
+							our trademarks in any way. You’re not allowed to attempt to
+							extract the source code of the app, and you also shouldn’t try
+							to translate the app into other languages, or make derivative
+							versions. The app itself, and all the trade marks, copyright,
+							database rights and other intellectual property rights related
+							to it, still belong to Hrutvik Patel.
+						</p> <p>
+							Hrutvik Patel is committed to ensuring that the app is
+							as useful and efficient as possible. For that reason, we
+							reserve the right to make changes to the app or to charge for
+							its services, at any time and for any reason. We will never
+							charge you for the app or its services without making it very
+							clear to you exactly what you’re paying for.
+						</p> <p>
+							The LyfeTunes app stores and processes personal data that
+							you have provided to us, in order to provide my
+							Service. It’s your responsibility to keep your phone and
+							access to the app secure. We therefore recommend that you do
+							not jailbreak or root your phone, which is the process of
+							removing software restrictions and limitations imposed by the
+							official operating system of your device. It could make your
+							phone vulnerable to malware/viruses/malicious programs,
+							compromise your phone’s security features and it could mean
+							that the LyfeTunes app won’t work properly or at all.
+						</p> <div><p>
+								The app uses third party service Spotify that declares their own
+								Terms and Conditions.
+							</p> <p>
+								Link to Terms and Conditions of third party service
+								providers used by the app
+							</p> <ul><!----><li><a href="https://www.spotify.com/us/legal/end-user-agreement/" target="_blank" rel="noopener noreferrer">Spotify</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul></div> <p>
+							</p> <ul><!----><li><a href="https://developers.google.com/admob/terms" target="_blank" rel="noopener noreferrer">AdMob</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul></div> <p>
+							You should be aware that there are certain things that
+							Hrutvik Patel will not take responsibility for. Certain
+							functions of the app will require the app to have an active
+							internet connection. The connection can be Wi-Fi, or provided
+							by your mobile network provider, but Hrutvik Patel
+							cannot take responsibility for the app not working at full
+							functionality if you don’t have access to Wi-Fi, and you don’t
+							have any of your data allowance left.
+						</p> <p></p> <p>
+							If you’re using the app outside of an area with Wi-Fi, you
+							should remember that your terms of the agreement with your
+							mobile network provider will still apply. As a result, you may
+							be charged by your mobile provider for the cost of data for
+							the duration of the connection while accessing the app, or
+							other third party charges. In using the app, you’re accepting
+							responsibility for any such charges, including roaming data
+							charges if you use the app outside of your home territory
+							(i.e. region or country) without turning off data roaming. If
+							you are not the bill payer for the device on which you’re
+							using the app, please be aware that we assume that you have
+							received permission from the bill payer for using the app.
+						</p> <p>
+							Along the same lines, Hrutvik Patel cannot always take
+							responsibility for the way you use the app i.e. You need to
+							make sure that your device stays charged – if it runs out of
+							battery and you can’t turn it on to avail the Service,
+							Hrutvik Patel cannot accept responsibility.
+						</p> <p>
+							With respect to Hrutvik Patel’s responsibility for your
+							use of the app, when you’re using the app, it’s important to
+							bear in mind that although we endeavour to ensure that it is
+							updated and correct at all times, we do rely on third parties
+							to provide information to us so that we can make it available
+							to you. Hrutvik Patel accepts no liability for any
+							loss, direct or indirect, you experience as a result of
+							relying wholly on this functionality of the app.
+						</p> <p>
+							At some point, we may wish to update the app. The app is
+							currently available on Android &amp; iOS – the requirements for
+							both systems(and for any additional systems we
+							decide to extend the availability of the app to) may change,
+							and you’ll need to download the updates if you want to keep
+							using the app. Hrutvik Patel does not promise that it
+							will always update the app so that it is relevant to you
+							and/or works with the Android &amp; iOS version that you have
+							installed on your device. However, you promise to always
+							accept updates to the application when offered to you, We may
+							also wish to stop providing the app, and may terminate use of
+							it at any time without giving notice of termination to you.
+							Unless we tell you otherwise, upon any termination, (a) the
+							rights and licenses granted to you in these terms will end;
+							(b) you must stop using the app, and (if needed) delete it
+							from your device.
+						</p> <p><strong>Changes to This Terms and Conditions</strong></p> <p>
+							I may update our Terms and Conditions
+							from time to time. Thus, you are advised to review this page
+							periodically for any changes. I will
+							notify you of any changes by posting the new Terms and
+							Conditions on this page.
+						</p> <p>
+							These terms and conditions are effective as of 2020-08-23
+						</p> <p><strong>Contact Us</strong></p> <p>
+							If you have any questions or suggestions about my
+							Terms and Conditions, do not hesitate to contact me
+							at hrutvikpatel.lyfetunes@gmail.com.
+						</p> <p>
+							This Terms and Conditions page was generated by
+							<a href="https://app-privacy-policy-generator.firebaseapp.com/" target="_blank" rel="noopener noreferrer">App Privacy Policy Generator</a></p>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<!-- team member item -->
-				<div class="col-md-6 col-sm-6 col-xs-6">
-					<div class="team-item">
-						<h3>Name</h3>
-						<div class="team-position">– Hrutvik Patel –</div>
+		</section>
+
+		<section id="terms" class="light-bg">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>Terms &amp; Conditions</h2>
+						</div>
 					</div>
 				</div>
-				<!-- end team member item -->
-				<!-- team member item -->
-				<div class="col-md-6 col-sm-6 col-xs-6">
-					<div class="team-item">
-						<h3>Email</h3>
-						<div class="team-position">– hrutvikpatel@icloud.com –</div>
+				<div class="row">
+					<div class="col-lg-12">
+							By downloading or using the app, these terms will
+							automatically apply to you – you should make sure therefore
+							that you read them carefully before using the app. You’re not
+							allowed to copy, or modify the app, any part of the app, or
+							our trademarks in any way. You’re not allowed to attempt to
+							extract the source code of the app, and you also shouldn’t try
+							to translate the app into other languages, or make derivative
+							versions. The app itself, and all the trade marks, copyright,
+							database rights and other intellectual property rights related
+							to it, still belong to Hrutvik Patel.
+						</p> <p>
+							Hrutvik Patel is committed to ensuring that the app is
+							as useful and efficient as possible. For that reason, we
+							reserve the right to make changes to the app or to charge for
+							its services, at any time and for any reason. We will never
+							charge you for the app or its services without making it very
+							clear to you exactly what you’re paying for.
+						</p> <p>
+							The LyfeTunes app stores and processes personal data that
+							you have provided to us, in order to provide my
+							Service. It’s your responsibility to keep your phone and
+							access to the app secure. We therefore recommend that you do
+							not jailbreak or root your phone, which is the process of
+							removing software restrictions and limitations imposed by the
+							official operating system of your device. It could make your
+							phone vulnerable to malware/viruses/malicious programs,
+							compromise your phone’s security features and it could mean
+							that the LyfeTunes app won’t work properly or at all.
+						</p> <div><p>
+								The app uses third party service Spotify that declares their own
+								Terms and Conditions.
+							</p> <p>
+								Link to Terms and Conditions of third party service
+								providers used by the app
+							</p> <ul><!----><li><a href="https://www.spotify.com/us/legal/end-user-agreement/" target="_blank" rel="noopener noreferrer">Spotify</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul></div> <p>
+							</p> <ul><!----><li><a href="https://developers.google.com/admob/terms" target="_blank" rel="noopener noreferrer">AdMob</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul></div> <p>
+							You should be aware that there are certain things that
+							Hrutvik Patel will not take responsibility for. Certain
+							functions of the app will require the app to have an active
+							internet connection. The connection can be Wi-Fi, or provided
+							by your mobile network provider, but Hrutvik Patel
+							cannot take responsibility for the app not working at full
+							functionality if you don’t have access to Wi-Fi, and you don’t
+							have any of your data allowance left.
+						</p> <p></p> <p>
+							If you’re using the app outside of an area with Wi-Fi, you
+							should remember that your terms of the agreement with your
+							mobile network provider will still apply. As a result, you may
+							be charged by your mobile provider for the cost of data for
+							the duration of the connection while accessing the app, or
+							other third party charges. In using the app, you’re accepting
+							responsibility for any such charges, including roaming data
+							charges if you use the app outside of your home territory
+							(i.e. region or country) without turning off data roaming. If
+							you are not the bill payer for the device on which you’re
+							using the app, please be aware that we assume that you have
+							received permission from the bill payer for using the app.
+						</p> <p>
+							Along the same lines, Hrutvik Patel cannot always take
+							responsibility for the way you use the app i.e. You need to
+							make sure that your device stays charged – if it runs out of
+							battery and you can’t turn it on to avail the Service,
+							Hrutvik Patel cannot accept responsibility.
+						</p> <p>
+							With respect to Hrutvik Patel’s responsibility for your
+							use of the app, when you’re using the app, it’s important to
+							bear in mind that although we endeavour to ensure that it is
+							updated and correct at all times, we do rely on third parties
+							to provide information to us so that we can make it available
+							to you. Hrutvik Patel accepts no liability for any
+							loss, direct or indirect, you experience as a result of
+							relying wholly on this functionality of the app.
+						</p> <p>
+							At some point, we may wish to update the app. The app is
+							currently available on Android &amp; iOS – the requirements for
+							both systems(and for any additional systems we
+							decide to extend the availability of the app to) may change,
+							and you’ll need to download the updates if you want to keep
+							using the app. Hrutvik Patel does not promise that it
+							will always update the app so that it is relevant to you
+							and/or works with the Android &amp; iOS version that you have
+							installed on your device. However, you promise to always
+							accept updates to the application when offered to you, We may
+							also wish to stop providing the app, and may terminate use of
+							it at any time without giving notice of termination to you.
+							Unless we tell you otherwise, upon any termination, (a) the
+							rights and licenses granted to you in these terms will end;
+							(b) you must stop using the app, and (if needed) delete it
+							from your device.
+						</p> <p><strong>Changes to This Terms and Conditions</strong></p> <p>
+							I may update our Terms and Conditions
+							from time to time. Thus, you are advised to review this page
+							periodically for any changes. I will
+							notify you of any changes by posting the new Terms and
+							Conditions on this page.
+						</p> <p>
+							These terms and conditions are effective as of 2020-08-23
+						</p> <p><strong>Contact Us</strong></p> <p>
+							If you have any questions or suggestions about my
+							Terms and Conditions, do not hesitate to contact me
+							at hrutvikpatel.lyfetunes@gmail.com.
+						</p> <p>
+							This Terms and Conditions page was generated by
+							<a href="https://app-privacy-policy-generator.firebaseapp.com/" target="_blank" rel="noopener noreferrer">App Privacy Policy Generator</a></p>
 					</div>
 				</div>
-				<!-- end team member item -->
-				<!-- team member item -->
-				<div class="col-md-6 col-sm-6 col-xs-6">
-					<div class="team-item">
-						<h3>Github</h3>
-						<a class="team-position" href="https://github.com/hrutvikpatel">– https://github.com/hrutvikpatel –</a>
-					</div>
-				</div>
-				<!-- end team member item -->
-				<!-- team member item -->
-				<div class="col-md-6 col-sm-6 col-xs-6">
-					<div class="team-item">
-						<h3>LinkedIn</h3>
-						<a class="team-position" href="https://www.linkedin.com/in/hrutvikpatel/">– https://www.linkedin.com/in/hrutvikpatel/ –</a>
-					</div>
-				</div>
-				<!-- end team member item -->
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<p id="back-top">
-		<a href="#top"><i class="fa fa-angle-up"></i></a>
-	</p>
-	<footer>
-		<div class="container text-center">
-			<p>Designed by <a><span>HRUTVIK</span>PATEL</a></p>
-		</div>
-	</footer>
+		<!-- Acknowledgments -->
+		<section id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="section-title">
+							<h2>Contact</h2>
+							<p>
+								During my work term several individuals acted as mentors, and offered
+								continuous help and
+								encouragement.
+								I would like to especially thank the following people.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- team member item -->
+					<div class="col-md-4 col-sm-6 col-xs-6">
+						<div class="team-item">
+							<h3>Developer</h3>
+							<div class="team-position">Hrutvik Patel</div>
+						</div>
+					</div>
+					<!-- end team member item -->
+					<!-- team member item -->
+					<div class="col-md-4 col-sm-6 col-xs-6">
+						<div class="team-item">
+							<h3>Email</h3>
+							<div class="team-position">hrutvikpatel.lyfetunes@gmail.com</div>
+						</div>
+					</div>
+					<!-- end team member item -->
+					<!-- team member item -->
+					<div class="col-md-4 col-sm-6 col-xs-6">
+						<div class="team-item">
+							<h3>Github</h3>
+							<a class="team-position" href="https://github.com/hrutvikpatel">–
+								https://github.com/hrutvikpatel –</a>
+						</div>
+					</div>
+					<!-- end team member item -->
+				</div>
+			</div>
+		</section>
 
-	<!-- Bootstrap core JavaScript
+		<p id="back-top">
+			<a href="#top"><i class="fa fa-angle-up"></i></a>
+		</p>
+		<footer>
+			<div class="container text-center">
+				<p>Designed by <a><span>HRUTVIK</span>PATEL</a></p>
+			</div>
+		</footer>
+
+		<!-- Bootstrap core JavaScript
 			================================================== -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-		crossorigin="anonymous"></script>
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/cbpAnimatedHeader.js"></script>
-	<script src="js/theme-scripts.js"></script>
-	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<script src="js/ie10-viewport-bug-workaround.js"></script>
-</body>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"></script>
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script
+			src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script
+			src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/cbpAnimatedHeader.js"></script>
+		<script src="js/theme-scripts.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="js/ie10-viewport-bug-workaround.js"></script>
+	</body>
 
 </html>
